@@ -1,0 +1,23 @@
+{
+  "name": "oxygen-shop-enrique",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enriquedonaire/Oxygen-Shop-Enrique.git"
+  },
+  "keywords": [],
+  "author": "Enrique Donaire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enriquedonaire/Oxygen-Shop-Enrique/issues"
+  },
+  "homepage": "https://github.com/Enriquedonaire/Oxygen-Shop-Enrique#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
