@@ -768,10 +768,10 @@ button {
     max-height: 240px;
   }
 }
-@media only screen and (min-width: 757px) {
+@media only screen and (min-width: 600px) {
   .header {
     height: 550px;
-    background-image: url(../assets/img/background.png);
+    background-image: url(../assets/img/bg-header.png);
     background-size: contain;
   }
   #mobile__menu__icon {
