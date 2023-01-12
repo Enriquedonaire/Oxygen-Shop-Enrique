@@ -680,7 +680,8 @@ button {
 .footer__social_media {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  justify-content: space-around;
+  gap: 0.2rem;
 }
 
 .benefits__container__div hr {
