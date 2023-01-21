@@ -47,13 +47,13 @@ setTimeout(function () {
     const btn_modalPopUp = document.querySelector('.newsletter__btn');
     const mail = document.querySelector('.info__newsletter__input');
 
-    btn_modalPopUp.addEventListener('click',async (e) => {
+    btn_modalPopUp.addEventListener('click', (e) => {
       e.preventDefault();
 
-      await fetch('https://jsonplaceholder.typicode.com/posts', {
+      fetch('https://jsonplaceholder.typicode.com/posts', {
         method: 'POST',
         body: JSON.stringify({
-          Name: mail,
+          Mail: mail,
         }),
 
         headers: {
@@ -63,19 +63,13 @@ setTimeout(function () {
         .then((response) => response.json())
         .then((json) => console.log(json));
 
-      alert('Su Solicitud ha sido Enviada.')
-
-      document.querySelector('.form').reset();
-
+      alert('Su Solicitud ha sido Enviada.');
+      closedModal();
+      modalPopUp.style.display = 'none';
     })
   }
 
 }, 5000);
-
-// const btn_OpenShop = document.querySelector('.header__info__btn btn-primary');
-// btn_OpenShop.addEventListener('click', (e) => {
-//   e.preventDefault()
-//   modalPopUp.style.display = 'block';
 
 intText.addEventListener('input', (event) => {
 
@@ -118,9 +112,9 @@ intCheck.addEventListener('input', () => {
   habilitarBoton();
 })
 
-btn.addEventListener('click', async (e) => {
+btn.addEventListener('click', (e) => {
 
-  await fetch('https://jsonplaceholder.typicode.com/posts', {
+  fetch('https://jsonplaceholder.typicode.com/posts', {
     method: 'POST',
     body: JSON.stringify({
       Name: intText.value,
@@ -137,7 +131,8 @@ btn.addEventListener('click', async (e) => {
   alert('Su Solicitud ha sido Enviada.')
 
   operationButton('in-activo');
-  document.querySelector('.form').reset();
+  const formSend = document.querySelector('.form');
+  formSend.reset();
 
   e.preventDefault();
 
@@ -264,5 +259,3 @@ const images = document.getElementsByClassName('slide__img')
 const buttons = document.getElementsByClassName('slide__btn')
 new Slider()
 
-
-setInterval(console.log('Bazinga'), 2000)
