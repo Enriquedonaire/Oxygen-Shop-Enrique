@@ -5,6 +5,7 @@ TECNOLOGIES: <br/>
 - HTML <br/>
 - CSS <br/>
 - JAVSCRIPT <br/>
+- BEM <br/>
 <br/>
 <br/>
 
