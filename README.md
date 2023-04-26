@@ -2,10 +2,11 @@
 
 <br/>
 TECNOLOGIES: <br/>
-- HTML <br/>
-- CSS <br/>
-- JAVSCRIPT <br/>
+- HTML5 <br/>
+- CSS3 <br/>
 - BEM <br/>
+- JAVSCRIPT <br/>
+
 <br/>
 <br/>
 
