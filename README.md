@@ -1,4 +1,4 @@
-# 🚀 OXYGEN-SHOP 🚀
+# 🛍️ OXYGEN-SHOP 🛒
 
 <br/>
 TECNOLOGIES: <br/>
@@ -11,7 +11,7 @@ TECNOLOGIES: <br/>
 <br/>
 
 
-# WEBSITE:
+# 🛒 WEBSITE:
 
 https://Enriquedonaire.github.io/Oxygen-Shop-Enrique
 
