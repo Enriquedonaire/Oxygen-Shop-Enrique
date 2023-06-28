@@ -1,4 +1,4 @@
-# 🛍️ OXYGEN-SHOP 
+# 🛍️ OXYGEN-SHOP 🛍️
 
 <br/>
 TECNOLOGIES: <br/>
