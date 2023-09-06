@@ -1,7 +1,7 @@
-# 🛍️ OXYGEN-SHOP 🛒 
+# 🛍️ OXYGEN-SHOP
 
 <br/>
-TECNOLOGIES: <br/>
+ 🛒  TECNOLOGIES: <br/>
 - HTML5 <br/>
 - CSS3 <br/>
 - BEM <br/>
